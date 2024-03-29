@@ -1,4 +1,49 @@
 h1{ color:rgb(18, 16, 19); 
-    border: 2px solid #0a0a0a
+    border: 2px solid #0a0a0a;
+    background-color: #597ec9;
+
+}
+
+body{
+    background-color: #58a3c5;
+}
+
+nav{
+    background-color:#5B84C4;
+    padding: 10px;
+    text-align: center;
+    word-spacing: 100px;
+    font-size: large;
+    font-style: oblique;
+    border-bottom: #0a0a0a;
+}
+
+nav ul li{
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+section{
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #86bbd8;
+}
+
+/*button styles*/
+.button{
+    display: block;
+    width: 200px;
+    margin: 20px;
+    padding: 10px;
+    background-color: rgb(156, 156, 241);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 
 }
