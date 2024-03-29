@@ -40,10 +40,14 @@ section{
     width: 200px;
     margin: 20px;
     padding: 10px;
-    background-color: rgb(156, 156, 241);
+    background-color: rgb(57, 57, 126);
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
 
+}
+.rating{
+    font-size: 20px;
+    color: gold;
 }
