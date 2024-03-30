@@ -1,23 +1,24 @@
 body{
     font-family: Arial, sans-serif;
-    margin: 0%;
-    padding: 0%;
+    margin: 0px;
+    padding: 300px;
 }
 
 .top {
-    width:auto;
-    margin: auto;
+    width:5px;
+    margin: 5px;
+    display: inline;
 }
 
 header{
     background-color:#17072b;
     color:#FFFF;
-    padding: 15px ;
+    padding: 30px ;
 }
 
 header h1{
     font-style: Tahoma, sans-serif ;
-    font-weight: 700;
+    font-weight: 900;
     margin: 0;
 }
 
@@ -25,12 +26,14 @@ nav ul{
     list-style-type : none;
     margin: 0%;
     padding: 0%;
+    font-weight: 600;
 
 }
 
 nav ul li{
     display: inline;
-    margin-left: 15% ;
+    margin-inline: 1% ;
+
 }
 
 nav ul li a {

@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(47, 42, 148);
+}
+
+h1{ color:rgb(18, 16, 19); 
+    border: 2px solid #0a0a0a;
+    background-color: #597ec9;
+}
+
+section{
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #ccd8f2;
+}
