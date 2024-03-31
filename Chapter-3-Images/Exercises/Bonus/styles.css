@@ -1,0 +1,41 @@
+div{
+    display: inline-block;
+    font-size: 20px;
+    margin: 20px;
+    border: 4px black;
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    line-height: 100px;
+    font-family: sans-serif;
+}
+
+body{
+    margin: 100px;
+    width: 100px;
+}
+
+#div1{
+    border: 5px solid purple;
+    box-shadow: 8px 8px 4px red ;
+
+}
+
+#div2{
+    border: 5px solid rgb(18,224,18);
+    box-shadow:8px 8px 4px black inset ;
+
+}
+
+#div3{
+    border-radius: 10px;
+    border: 0px;
+    box-shadow: 0px 0px 0px 5px orange, 0px 0px 0px 10px blue,
+    0px 0px 0px 15px rgb(235,4,4), 0px 0px 0px 20px rgb(30,144,5);
+
+}
+
+#div4{
+    text-shadow: 4px 4px 2px;
+    border: 6px solid rgb(239,12,12);
+}
