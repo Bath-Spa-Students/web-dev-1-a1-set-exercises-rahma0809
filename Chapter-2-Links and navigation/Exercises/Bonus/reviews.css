@@ -5,7 +5,7 @@ h1{ color:rgb(18, 16, 19);
 }
 
 body{
-    background-color:#fcc1c5;
+    background-color: #fcc1c5;
 }
 
 nav{
@@ -29,24 +29,11 @@ nav ul li a {
 }
 
 section{
-    padding: 20px;
-    margin-top: 20px;
-    background-color: #e69597;
+    padding: 40px;
+    margin: 10px;
+    background-color:  #e69597;
 }
 
-/*button styles*/
-.button{
-    display: block;
-    width: 200px;
-    margin: 20px;
-    padding: 10px;
-    background-color: rgb(57, 57, 126);
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-
-}
 .rating{
     font-size: 20px;
     color: gold;
