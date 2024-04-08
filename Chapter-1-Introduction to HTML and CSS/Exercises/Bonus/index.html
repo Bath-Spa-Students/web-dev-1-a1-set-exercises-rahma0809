@@ -8,14 +8,26 @@
 </head>
 <body>
     <!-- Header -->
-   <center> <h1>HTML and CSS Reference Guide</h1><br>
+   <center> 
+    
+    <h1 class="header">HTML and CSS Reference Guide</h1><br>
     <p> A HTML and CSS reference guide that covers all tags we covered 
         so far (with a few extra)</p><br>
         <h2><b>HTML Guide</b></h2></center><br>
 
+<!--HTML headings section-->
         <section id="heading">
         <h2>*HTML Headings</h2>
 
+        &lt;h1&gt;Heading 1&lt;/h1&gt;<br>
+        &lt;h2&gt;Heading 2&lt;/h2&gt;<br>
+        &lt;h3&gt;Heading 3&lt;/h3&gt;<br>
+        &lt;h4&gt;Heading 4&lt;/h4&gt;<br>
+        &lt;h5&gt;Heading 5&lt;/h5&gt;<br>
+        &lt;h6&gt;Heading 6&lt;/h6&gt;<br>
+       
+        <!--Output for it-->
+        <h2><u>Output</u></h2>
         <h1>Heading 1</h1>
         <h2>Heading 2</h2>
         <h3>Heading 3</h3>
@@ -24,21 +36,43 @@
         <h6>Heading 6</h6><br>
     </section>
 
+    <!--Paragraphs Section-->
 <section id="Paragraph">
 <h2>*Paragraph Element</h2>
-<p>This is a Paragraph</p><br>
+
+&lt;p&gt;This is a Paragraph&lt;/p&gt;<br>
+
+<!--Output for it-->
+<h2><u>Output:</u></h2>
+<p>This is a Paragraph</p>
 </section>
 
+<!--Line break element Section-->
 <section id="break">
 <h2>*Line break element</h2>
-<p> text is here<br>
-A new text is here</p><br>
+&lt;p&gt;text is here&lt;br&gt;<br>
+A new text is here&lt;/p&gt;<br>
+
+<!--Output for it-->
+<h2><u>Output</u></h2>
+<p>Text is here<br>
+A new text is here</p>
 </section>
 
+<!--Html lists section-->
 <section id="lists">
 <h2>*HTML Lists</h2>
 <h3>*Ordered list</h3>
-<ol>
+
+&lt;ol&gt;<br>
+    &lt;li&gt; coffee&lt;/li&gt;<br>
+    &lt;li&gt;Tea&lt;/li&gt;<br>
+    &lt;li&gt;Juice&lt;/li&gt;<br>
+    &lt;/ol&gt;<br>
+
+    <!--Output for it-->
+    <h2><u>Output</u></h2>
+    <ol>
     <li> coffee</li>
     <li>Tea</li>
     <li>Juice</li>
@@ -47,56 +81,131 @@ A new text is here</p><br>
 
 <section id="lists">
 <h3>*Unordered list</h3>
-<ul>
-    <li> Coffee</li>
-    <li>Tea</li>
-    <li>Juice</li>
+&lt;ul&gt;<br>
+&lt;li&gt; Coffee&lt;/li&gt;<br>
+&lt;li&gt;Tea&lt;/li&gt;<br>
+&lt;li&gt;Juice&lt;/li&gt;<br>
+&lt;/ul&gt;<br>
+
+<!--Output for it-->
+<h2><u>Output</u></h2>
+<ul><br>
+<li> Coffee</li>
+<li> Tea</li>
+<li> Juice</li>
 </ul><br>
 </section>
 
+<!--Formatting tags section-->
 <section id="tags">
 <h2>*Formatting tags</h2>
 <center><img src="format.png"alt = "" width ="700" height=" 400"></center><br>
 </section>
 
+<!--Image element section-->
 <section id="image">
 <h2>*Image element</h2>
 <p>Allows to add images into the webpage</p>
+&lt;img src="chocolate.png"alt = "a picture"&gt;<br>
+
+<!--Output for it-->
+<h2><u>Output</u></h2>
 <img src="chocolate.png"alt = "a picture"><br>
 </section>
 
+<!--div element secrttion-->
 <section id="element">
 <h2>*Div element</h2>
-<p>Configures a structural block area or 'division' on a webpage
-    with empty spaces above and below. </p><br>
+&lt;p&gt;Configures a structural block area or&lt;div&gt; 'division' on a webpage
+    with empty spaces above and below. &lt;/p&gt;<br>
+
+    <!--Output for it-->
+    <h2><u>Output</u></h2>
+    <p>Configures a structural block area or <div>'division' on a webpage
+    with empty spaces above and below. </p>
 </section>
 
+<!--Underlining text section-->
 <section id="text">
     <h2>*Underlining text</h2>
+    &lt;p&gt;&lt;u&gt;Underlines the text&lt;/u&gt;&lt;/p&gt;<br>
+
+    <!--Output for it-->
+    <h2><u>Output</u></h2>
     <p><u>Underlines the text</u></p><br>
 </section>
 
+<!--Horizontal line section-->
 <section id="line">
 <h2>*Horizontal line</h2>
+&lt;p&gt;&lt;hr&gt; Creates a horizontal line on the webpage &lt;/p&gt;<br>
+
+<!--Output for it-->
+<h2><u>Output</u></h2>
 <p><hr> Creates a horizontal line on the webpage </p><br>
 </section>
 
+<!--Special character section-->
 <section id="character">
 <h2>*Special Characters</h2>
 <img src="Charater.png"alt = "a picture"><br>
 </section>
 
+<h2><center><b>CSS Guide</b></h2><br>
+<p>Here are some common CSS properties:</p></center>
+
+<!--Color property section-->
+<section id="color">
+<h2><u>Font-color</u></h2>
+ <p>{font color="#FF0000";}</p><br>
+ </section>
+
+    
+<!--font-size property section-->
+<section id="size">
+<h2><u>Font-size</u></h2>
+<p>{font-size:10px;}</p><br>
+</section>
+
+
+<!--font-family property section-->
+<section id="arial">
+<h2><u>Font-family</u></h2>
+ <p>{font-family:Arial, sans-serif;}</p><br>
+</section>
+
+ <!--text-align property section-->
+ <section id="align">
+ <h2><u>Text-align</u></h2>
+ <p>{text-align:center;}</p><br>
+</section>
+
+ <!--Background-color property-->
+ <section id="background">
+ <h2><u>Background-color</u></h2>
+ <p>body{backgroubd-color:solid red;}</p><br>
+</section>
+
+ <!--font weight property-->
+ <section id="weight">
+ <h2><u>Font-weight</u></h2>
+ <p>{font-weight:bold;}</p><br>
+</section>
+
+ <!--Border property-->
+ <section id="border">
+ <h2><u>Border</u></h2>
+ <p>{border:5px solid black;}</p><br>
+</section>
+
+ <!--Text-decoration property-->
+ <section id="decoration">
+ <h2><u>Text-decoration</u></h2>
+ <p>{text-decoration:underline;}</p><br>
+</section>
+
+
+
 </body>
 </html>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>gdgudry</h1>
-</body>
-</html>
