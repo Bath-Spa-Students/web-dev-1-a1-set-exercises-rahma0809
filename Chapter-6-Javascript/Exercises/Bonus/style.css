@@ -1,0 +1,42 @@
+h1{
+    color:#022a8f;background-color:#FFCCCC; 
+    border: 2px solid #0a0a0a;
+     text-align: center;
+}
+body{
+    background-color:#f5e9e9;
+}
+
+.container{
+    text-align: center;
+    margin-top: 45px;
+}
+
+#colorDisplay{
+    width: 250px;
+    height: 250px;
+    margin: 25px auto;
+    border: 3px solid black;
+}
+
+#colorOptions{
+    margin: 25px;
+}
+
+#colorOptions div{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: 0 15px;
+    cursor: pointer;
+}
+
+#resetButton{
+    margin-top: 20px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+#score{
+    font-size: 19px;
+}
