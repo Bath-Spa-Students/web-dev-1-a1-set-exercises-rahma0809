@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "style.css"> 
+    <title>Alan Partridge Soundboard</title>
+</head>
+<body>
+    <!--Page title-->
+    <h1><u>Alan Partridge Soundboard</u></h1>
+
+    <!--Soundboard container-->
+    <div class="Soundboard">
+
+        <!--Audio Sample Buttons-->
+      <div class="Sample" audio-path="../../Exercises/Audio Sampler/Audio/ah-ha.mp3">ah-ha</div>
+      <div class="Sample" audio-path="../../Exercises/Audio Sampler/Audio/back-of-the-net.mp3">back-of-the-net</div> 
+      <div class="Sample" audio-path="../../Exercises/Audio Sampler/Audio/bangoutoforder.mp3">bangoutoforder</div>
+      <div class="Sample" audio-path="../../Exercises/Audio Sampler/Audio/dan.mp3">dan</div>
+      <div class="Sample" audio-path="../../Exercises/Audio Sampler/Audio/emailoftheevening.mp3">emailoftheevening</div>
+      <div class="Sample" audio-path="../../Exercises/Audio Sampler/Audio/hellopartridge.mp3">hellopartridge</div>
+      <div class="Sample" audio-path="../../Exercises/Audio Sampler/Audio/iateascotchegg.mp3">iateascotchegg</div>
+      <div class="Sample" audio-path="../../Exercises/Audio Sampler/Audio/imconfused.mp3">imconfused</div>
+    </div>
+
+    <!--Audio Player-->
+    <audio id="Audio" preload="auto"></audio>
+
+    <!--JavaScript-->
+    <script src="index.js"></script>
+
+    <div>
+        <input type="speech" class="text-to-speech" placeholder="enter text to speak"/>
+        <button onclick="textToAudio()">Speak</button>
+    </div>
+
+    <script>
+        function textToAudio (){
+            let message= document.getElementById("text-to-speech").value;
+            let speech= new SpeechSynthesisUtterance();
+            speech.pitch=1;
+            speech.text=message;
+            window.speechSynthesis.speak(speech);
+            
+        }
+    </script>
+    
+    </div>
+
+
+</body>
+</html>

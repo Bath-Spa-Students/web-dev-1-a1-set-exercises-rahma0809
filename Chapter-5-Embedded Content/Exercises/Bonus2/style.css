@@ -1,0 +1,57 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: rgb(229, 207, 250);
+    margin: 0;
+    padding: 0;
+
+}
+
+h1{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.Soundboard{
+    background-color: rgb(252, 246, 252);
+    color: black;
+    padding: 10px;
+    border-radius: 5ox;
+    text-align: center;
+    cursor: pointer;
+}
+
+.Sample:hover{
+    background-color: rgb(124, 124, 176);
+}
+
+.text-to-speech{
+    margin-top: 15px;
+    width: calc(100%-115px);
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 4px 0 0 4px;
+    font-size: 15px;
+}
+
+.text-to-speech:focus{
+    outline: none;
+}
+
+.text-to-speech::placeholder{
+    color: rgb(15, 9, 1);
+}
+
+.text-to-speech-button{
+    width: 100px;
+    background-color: rgb(82, 58, 105);
+    color: yellow;
+    border-radius: 0 5px 5px 0;
+    border: none;
+    font-size: 150x;
+    cursor: pointer;
+}
+
+.text-to-speech-button:hover{
+    background-color: rgb(147, 147, 74);
+
+}
